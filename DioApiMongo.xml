@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DioApiMongo</name>
+    </assembly>
+    <members>
+        <member name="M:DioApiMongo.Controllers.InfectadoController.SalvarInfectado(DioApiMongo.Models.InfectadoViewModel)">
+            <summary>
+            Permite cadastrar um novo infectado
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DioApiMongo.Controllers.InfectadoController.ObterInfectados">
+            <summary>
+            Retorna uma lista com todos os infectados
+            </summary>
+            <returns>Lista de Infectados</returns>
+        </member>
+        <member name="M:DioApiMongo.Controllers.InfectadoController.AtualizarInfectado(DioApiMongo.Models.InfectadoViewModel,System.String)">
+            <summary>
+            Permite atualizar um infectado
+            </summary>
+            <param name="viewModel"></param>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DioApiMongo.Controllers.InfectadoController.DeletarInfectado(System.String)">
+            <summary>
+            Permite excluir um infectado
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
